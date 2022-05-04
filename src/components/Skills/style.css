@@ -1,0 +1,40 @@
+.skills-container {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: auto;
+    font-size: 3rem;
+}
+
+.skills-container h1 {
+
+
+    text-align: center;
+    color: rgb(250, 10, 210);
+    background: black;
+    border-radius: 20px;
+}
+
+.list-skills {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+
+}
+
+.skills {
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    background: black;
+    color: rgb(250, 10, 210);
+    transition: 0.3s;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.skills:hover {
+    color: black;
+    background: rgb(250, 10, 210);
+    border: 1px solid black;
+}
