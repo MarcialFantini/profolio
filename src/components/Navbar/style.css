@@ -3,7 +3,7 @@
 
     align-items: center;
 
-    background: orangered;
+    background: rgb(255, 255, 255);
 
     font-size: 3rem;
 
@@ -24,8 +24,9 @@
     left: -70%;
     top: 0;
 
-
-
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-right: 10px solid rgb(247, 0, 255);
     transition: all 0.3s;
 
     z-index: 50;

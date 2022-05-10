@@ -29,9 +29,9 @@
 }
 
 .proyect-banner_img_active {
-    border: rgb(195, 30, 236) solid 5px;
+    border: white solid 5px;
     opacity: 0.4;
-    box-shadow: 0 0 10px 5px rgb(195, 30, 236);
+    box-shadow: 0 0 10px 5px white;
 }
 
 .text-relative {
@@ -58,7 +58,7 @@
 }
 
 .text-relative_active {
-    color: black;
+    color: white;
 }
 
 .proyect-banner button {

@@ -28,13 +28,55 @@
     margin: 20px auto;
     background: black;
     color: rgb(250, 10, 210);
-    transition: 0.3s;
+   
     border: 1px solid white;
     border-radius: 20px;
+    animation: skilssColors 10s   linear infinite;
+
 }
 
 .skills:hover {
     color: black;
     background: rgb(250, 10, 210);
     border: 1px solid black;
+}
+
+
+@keyframes skilssColors {
+    0%{
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+    20%{color: black;
+        background: rgb(255, 255, 255);}
+    25%{
+        color: white;
+        background: rgb(250, 10, 210);
+    }
+    45%{
+        color: white;
+        background: rgb(250, 10, 210);
+    }
+    50%{
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+    70%{
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+    75%{
+        color: white;
+        background: rgb(250, 10, 210);
+    }
+
+    95%{
+        color: white;
+        background: rgb(250, 10, 210);
+    }
+    100%{
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+       
 }
